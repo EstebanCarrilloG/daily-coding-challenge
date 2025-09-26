@@ -1,0 +1,13 @@
+{
+  "name": "daily-coding-challenge",
+  "version": "1.0.0",
+  "description": "A collection of daily coding challenges from Free Code Camp.",
+  "license": "ISC",
+  "author": "Esteban Carrillo",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  }
+}
