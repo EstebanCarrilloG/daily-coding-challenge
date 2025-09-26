@@ -4,6 +4,10 @@ import * as challenge from "./challenges/index.js";
 console.log("\x1b[32m* Callenges: August 2025\x1b[0m");
 console.log("- Vowel Balance:", challenge.isBalanced("123A#b!E&*456-o.U")); // 11-08-2025 - Vowel balance.
 console.log("- Fibonacci sequence:", challenge.fibonacciSequence([21, 32], 10)); // 13-08-2025 - Fibonacci sequence.
+console.log(
+  "- S P A C E J A M:",
+  challenge.spaceJam("   free   Code   Camp   ")
+); // 14-08-2025 - S P A C E J A M.
 console.log("- Squares with 3:", challenge.squaresWithThree(100)); // 20-08-2025 - Squares with 3.
 
 // September 2025
