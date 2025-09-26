@@ -3,6 +3,7 @@ import * as challenge from "./challenges/index.js";
 // August 2025
 console.log("\x1b[32m* Callenges: August 2025\x1b[0m");
 console.log("- Vowel Balance:", challenge.isBalanced("123A#b!E&*456-o.U")); // 11-08-2025 - Vowel balance.
+console.log("- Fibonacci sequence:", challenge.fibonacciSequence([21, 32], 10)); // 13-08-2025 - Fibonacci sequence.
 console.log("- Squares with 3:", challenge.squaresWithThree(100)); // 20-08-2025 - Squares with 3.
 
 // September 2025
