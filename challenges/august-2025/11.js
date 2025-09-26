@@ -3,6 +3,13 @@
 /* Given a string, determine whether the number of vowels 
 in the first half of the string is equal to the number of 
 vowels in the second half. */
+
+/**
+ * Given a string, return true if the number of vowels in the first half of the string
+ * is equal to the number of vowels in the second half of the string, and false otherwise.
+ * @param {string} s - The string to check.
+ * @returns {boolean} True if the number of vowels in the first half of the string is equal to the number of vowels in the second half, and false otherwise.
+ */
 export function isBalanced(s) {
   s = s.toLowerCase();
   let stringHalf = s.length / 2;
