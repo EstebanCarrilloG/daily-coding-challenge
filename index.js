@@ -15,3 +15,4 @@ console.log(
   "- Second largest number:",
   challenge.secondLargest([1, 2, 3, 4, 4, 4])
 ); // 25-09-2025 - Second largest number.
+console.log("- Caught Speeding:", challenge.speeding([58, 50, 60, 55], 60)); // 26-09-2025 - Caught Speeding.
