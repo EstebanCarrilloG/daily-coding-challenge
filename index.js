@@ -8,6 +8,10 @@ console.log(
   "- S P A C E J A M:",
   challenge.spaceJam("   free   Code   Camp   ")
 ); // 14-08-2025 - S P A C E J A M.
+console.log(
+  "- Jumble the words:",
+  challenge.jbelmu("hello world wellcome to Ecuador")
+); // 15-08-2025 - Jumble the words.
 console.log("- Squares with 3:", challenge.squaresWithThree(100)); // 20-08-2025 - Squares with 3.
 
 // September 2025
