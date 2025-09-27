@@ -25,3 +25,4 @@ console.log(
   challenge.secondLargest([1, 2, 3, 4, 4, 4])
 ); // 25-09-2025 - Second largest number.
 console.log("- Caught Speeding:", challenge.speeding([58, 50, 60, 55], 60)); // 26-09-2025 - Caught Speeding.
+console.log("- Is spam:", challenge.isSpam("+0 (200) 111-1182")); // 27-09-2025 - Is spam.
