@@ -26,3 +26,7 @@ console.log(
 ); // 25-09-2025 - Second largest number.
 console.log("- Caught Speeding:", challenge.speeding([58, 50, 60, 55], 60)); // 26-09-2025 - Caught Speeding.
 console.log("- Is spam:", challenge.isSpam("+0 (200) 111-1182")); // 27-09-2025 - Is spam.
+console.log(
+  "- CSV Header Parser:",
+  challenge.getHeadings("username , email , signup date ")
+); // 28-09-2025 - CSV Header Parser.
