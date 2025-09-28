@@ -15,6 +15,7 @@ console.log(
 console.log("- Anagram Checker:", challenge.areAnagrams("listen", "silent")); // 16-08-2025 - Anagram Checker.
 console.log("- Targeted Sum:", challenge.findTarget([2, 7, 11, 15], 9)); // 17-08-2025 - Find target.
 console.log("- Factorializer:", challenge.factorial(1));
+console.log("- Sum of Squares", challenge.sumOfSquares(5));
 console.log("- Squares with 3:", challenge.squaresWithThree(100)); // 20-08-2025 - Squares with 3.
 
 // September 2025
