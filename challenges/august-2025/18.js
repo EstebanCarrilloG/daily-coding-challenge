@@ -15,4 +15,3 @@ export function factorial(n) {
 
   return j;
 }
-console.log(factorial(1));
