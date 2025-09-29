@@ -17,6 +17,7 @@ console.log("- Targeted Sum:", challenge.findTarget([2, 7, 11, 15], 9)); // 17-0
 console.log("- Factorializer:", challenge.factorial(1));
 console.log("- Sum of Squares", challenge.sumOfSquares(5));
 console.log("- Squares with 3:", challenge.squaresWithThree(100)); // 20-08-2025 - Squares with 3.
+console.log("- Mile Pace:", challenge.milePace(2, "24:31")); // 21-08-2025 - Mile Pace.
 
 // September 2025
 console.log("\x1b[32m* Callenges: September 2025\x1b[0m");
