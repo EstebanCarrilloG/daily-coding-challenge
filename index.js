@@ -34,3 +34,7 @@ console.log(
   "- CSV Header Parser:",
   challenge.getHeadings("username , email , signup date ")
 ); // 28-09-2025 - CSV Header Parser.
+console.log(
+  "- Longest Word:",
+  challenge.getLongestWord("This sentence has multiple long words.")
+); // 29-09-2025 - Longest word.
