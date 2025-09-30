@@ -1,31 +1,126 @@
-# Free Code Camp Daily Coding Challenges
+# Daily Coding Challenge
 
-A collection of daily coding challenges from Free Code Camp.
+A collection of **freeCodeCamp daily coding challenges**, organized by month and solved in **JavaScript**.  
+The goal is to practice algorithms, problem-solving, and clean coding on a consistent basis.
 
-## About
+---
 
-Free Code Camp is a non-profit organization that offers a comprehensive coding curriculum in web development, data analysis, and machine learning. The daily coding challenges are a part of the curriculum and are designed to help learners practice their coding skills in a variety of programming languages.
+## 📂 Project Structure
 
-## Challenges
+```
+/src
+ ├── challenges/
+ │    ├── august-2025/
+ │    │    └── index.js
+ │    ├── september-2025/
+ │    │    ├── 09.js
+ │    │    ├── 18.js
+ │    │    ├── 19.js
+ │    │    ├── 24.js
+ │    │    ├── 25.js
+ │    │    ├── 26.js
+ │    │    ├── 27.js
+ │    │    ├── 28.js
+ │    │    ├── 29.js
+ │    │    ├── 30.js
+ │    │    └── index.js
+ │    └── ...
+ ├── index.js          # Runs/aggregates challenges
+ ├── playground.js     # For quick tests/debugging
+ ├── package.json
+ ├── package-lock.json
+ └── README.md
+```
 
-The daily coding challenges are in the form of coding exercises that cover a range of topics, from basic programming concepts to advanced algorithms and data structures.
+- Each file inside `challenges/<month-year>/` corresponds to one daily challenge.  
+- Each month has its own `index.js` that exports that month’s challenges.  
+- The main `src/index.js` imports them and logs results with challenge names + dates.  
 
-## How to Participate
+---
 
-To participate in the daily coding challenges, sign up for a free account on the Free Code Camp website and complete the challenges on the website.
+## 🚀 Getting Started
 
-## Benefits
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/EstebanCarrilloG/daily-coding-challenge.git
+   cd daily-coding-challenge
+   ```
 
-Participating in the daily coding challenges can help you to:
+2. **Install dependencies**
+   ```bash
+   npm install
+   ```    
 
-* Improve your coding skills and knowledge of programming languages
-* Build your portfolio and showcase your projects to potential employers
-* Get feedback and support from the Free Code Camp community
-* Stay motivated and accountable with your learning goals
+---
 
-## Contributing
+## 📜 **Available Scripts**
 
-Contributions to the daily coding challenges are welcome. You can contribute by:
+In the project directory, you can run:
 
-* Submitting pull requests to add new challenges or improve existing ones.
-* Reporting bugs or issues on the GitHub issues page.
+#### `npm run start`
+Runs the app using nodemon on `src/index.js`.
+
+#### `npm run playground`
+Runs the playground script using nodemon on `src/playground.js`.
+
+---
+
+## 🧑‍💻 Usage
+
+By default, `src/index.js` executes the selected challenges.  
+For example:
+
+```js
+import * as challenge from "./challenges/index.js";
+
+// August 2025
+console.log("\x1b[32m* Callenges: August 2025\x1b[0m");
+console.log("- Vowel Balance:", challenge.isBalanced("123A#b!E&*456-o.U")); // 11-08-2025 - Vowel balance.
+console.log("- Fibonacci sequence:", challenge.fibonacciSequence([21, 32], 10)); // 13-08-2025 - Fibonacci sequence.
+console.log(
+  "- S P A C E J A M:",
+  challenge.spaceJam("   free   Code   Camp   ")
+); // 14-08-2025 - S P A C E J A M.
+```
+
+### Example Output
+
+```bash
+* Callenges: August 2025
+- Vowel Balance: true
+- Fibonacci sequence: [
+   21,   32,  53,  85,
+  138,  223, 361, 584,
+  945, 1529
+]
+- S P A C E J A M: F  R  E  E  C  O  D  E  C  A  M  P
+```
+
+---
+
+## 🧑‍🤝‍🧑 Contributing
+
+Contributions are welcome!  
+You can:
+
+- Add new daily challenges  
+- Improve existing solutions  
+- Add explanations or comments for clarity  
+- Suggest optimizations  
+
+To contribute:
+
+1. Fork the repo  
+2. Create a new branch  
+3. Add or modify challenges following the same folder structure  
+4. Submit a pull request 🚀  
+
+---
+
+## 📜 License
+
+This project is licensed under the **MIT License** – see the [LICENSE](LICENSE) file for details.
+
+---
+
+✨ Happy coding! ✨
