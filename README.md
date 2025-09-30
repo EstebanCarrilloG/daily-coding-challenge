@@ -70,29 +70,38 @@ By default, `src/index.js` executes the selected challenges.
 For example:
 
 ```js
-import * as challenge from "./challenges/index.js";
+console.log(styleText("Callenges: August 2025", "heading"));
 
-// August 2025
-console.log("\x1b[32m* Callenges: August 2025\x1b[0m");
-console.log("- Vowel Balance:", challenge.isBalanced("123A#b!E&*456-o.U")); // 11-08-2025 - Vowel balance.
-console.log("- Fibonacci sequence:", challenge.fibonacciSequence([21, 32], 10)); // 13-08-2025 - Fibonacci sequence.
-console.log(
-  "- S P A C E J A M:",
-  challenge.spaceJam("   free   Code   Camp   ")
-); // 14-08-2025 - S P A C E J A M.
+// 11-08-2025 - Vowel balance.
+console.log(styleText("11-08-2025 - Vowel Balance"), {
+  testCase: input.vowelBalance,
+  output: challenge.isBalanced(input.vowelBalance),
+});
+// 13-08-2025 - Fibonacci sequence.
+console.log(styleText("13-08-2025 - Fibonacci sequence"), {
+  testCase: input.fibonacciSequence,
+  output: challenge.fibonacciSequence(
+    input.fibonacciSequence.startSequence,
+    input.fibonacciSequence.length
+  ),
+});
 ```
 
 ### Example Output
 
 ```bash
-* Callenges: August 2025
-- Vowel Balance: true
-- Fibonacci sequence: [
-   21,   32,  53,  85,
-  138,  223, 361, 584,
-  945, 1529
-]
-- S P A C E J A M: F  R  E  E  C  O  D  E  C  A  M  P
+ • Callenges: August 2025 
+ ▸ 11-08-2025 - Vowel Balance 
+ { testCase: '123A#b!E&*456-o.U', output: true }
+ ▸ 13-08-2025 - Fibonacci sequence 
+ {
+  testCase: { startSequence: [ 21, 32 ], length: 10 },
+  output: [
+     21,   32,  53,  85,
+    138,  223, 361, 584,
+    945, 1529
+  ]
+}
 ```
 
 ---
