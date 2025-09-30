@@ -43,3 +43,4 @@ console.log(
   "- Longest Word:",
   challenge.getLongestWord("This sentence has multiple long words.")
 ); // 29-09-2025 - Longest word.
+console.log("- Phone Number Formatter:", challenge.formatNumber("05552340182")); //30-09-2025 - Phone Number Formatter
