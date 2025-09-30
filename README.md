@@ -11,36 +11,33 @@ The goal is to practice algorithms, problem-solving, and clean coding on a consi
 /src
  ├── challenges/
  │    ├── august-2025/
- │    │    └── index.js
+ |    │    ├── 11.js
+ │    │    ├── 13.js
+ │    │    ├── 14.js
+ │    │    ├── ...
+ │    │    └── index.js    #Exports all August challenges
  │    ├── september-2025/
  │    │    ├── 09.js
  │    │    ├── 18.js
  │    │    ├── 19.js
  │    │    ├── 24.js
- │    │    ├── 25.js
- │    │    ├── 26.js
- │    │    ├── 27.js
- │    │    ├── 28.js
- │    │    ├── 29.js
- │    │    ├── 30.js
- │    │    └── index.js
- │    └── ...
- ├── index.js          # Runs/aggregates challenges
- ├── playground.js     # For quick tests/debugging
- ├── package.json
- ├── package-lock.json
- └── README.md
+ │    │    ├── ...
+ │    │    └── index.js    #Exports all September challenges
+ │    └── index.js         #Exports all monthly challenges
+ ├── index.js              # Runs/aggregates challenges
+ └── playground.js         # For quick tests/debugging
 ```
 
-- Each file inside `challenges/<month-year>/` corresponds to one daily challenge.  
-- Each month has its own `index.js` that exports that month’s challenges.  
-- The main `src/index.js` imports them and logs results with challenge names + dates.  
+- Each file inside `challenges/<month-year>/` corresponds to one daily challenge.
+- Each month has its own `index.js` that exports that month’s challenges.
+- The main `src/index.js` imports them and logs results with challenge names + dates.
 
 ---
 
 ## 🚀 Getting Started
 
 1. **Clone the repository**
+
    ```bash
    git clone https://github.com/EstebanCarrilloG/daily-coding-challenge.git
    cd daily-coding-challenge
@@ -49,7 +46,7 @@ The goal is to practice algorithms, problem-solving, and clean coding on a consi
 2. **Install dependencies**
    ```bash
    npm install
-   ```    
+   ```
 
 ---
 
@@ -58,9 +55,11 @@ The goal is to practice algorithms, problem-solving, and clean coding on a consi
 In the project directory, you can run:
 
 #### `npm run start`
+
 Runs the app using nodemon on `src/index.js`.
 
 #### `npm run playground`
+
 Runs the playground script using nodemon on `src/playground.js`.
 
 ---
@@ -103,17 +102,17 @@ console.log(
 Contributions are welcome!  
 You can:
 
-- Add new daily challenges  
-- Improve existing solutions  
-- Add explanations or comments for clarity  
-- Suggest optimizations  
+- Add new daily challenges
+- Improve existing solutions
+- Add explanations or comments for clarity
+- Suggest optimizations
 
 To contribute:
 
-1. Fork the repo  
-2. Create a new branch  
-3. Add or modify challenges following the same folder structure  
-4. Submit a pull request 🚀  
+1. Fork the repo
+2. Create a new branch
+3. Add or modify challenges following the same folder structure
+4. Submit a pull request 🚀
 
 ---
 
