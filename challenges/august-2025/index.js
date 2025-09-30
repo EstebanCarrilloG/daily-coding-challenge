@@ -8,3 +8,4 @@ export * from "./18.js";
 export * from "./19.js";
 export * from "./20.js";
 export * from "./21.js";
+export * from "./22.js";
