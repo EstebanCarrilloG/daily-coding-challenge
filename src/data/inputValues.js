@@ -25,3 +25,7 @@ export const isSpam = "+0 (200) 111-1182";
 export const getHeadings = "username , email , signup date ";
 export const getLongestWord = "This sentence has multiple long words.";
 export const formatNumber = "05552340182";
+
+// October 2025
+
+export const toDecimal = "1010";

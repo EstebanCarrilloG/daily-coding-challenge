@@ -134,3 +134,12 @@ console.log(styleText("30-09-2025 - Phone Number Formatter"), {
   testCase: input.formatNumber,
   output: challenge.formatNumber(input.formatNumber),
 });
+
+//------------------------------------------------------------------------------------------
+// October 2025
+console.log(styleText("Callenges: October 2025", "heading"));
+// 01-10-2025 - Binary to Decimal
+console.log(styleText("01-10-2025 - Binary to Decimal"), {
+  testCase: input.toDecimal,
+  output: challenge.toDecimal(input.toDecimal),
+});
