@@ -11,6 +11,7 @@ export const sumOfSquares = 5;
 export const squaresWithThree = 100;
 export const milePace = { minutes: 2, time: "24:31" };
 export const decode = "Xlmw mw e wigvix qiwweki.";
+export const isUnnaturalPrime = 11;
 
 // September 2025
 

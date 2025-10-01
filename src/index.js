@@ -66,6 +66,11 @@ console.log(styleText("22-08-2025 - Message Decoder"), {
   testCase: input.decode,
   output: challenge.decode(input.decode, 4),
 });
+// 23-08-2025 - Unnatural prime.
+console.log(styleText("23-08-2025 - Unnatural prime"), {
+  testCase: input.isUnnaturalPrime,
+  output: challenge.isUnnaturalPrime(input.isUnnaturalPrime),
+});
 
 // ------------------------------------------------------------------------------------------
 
