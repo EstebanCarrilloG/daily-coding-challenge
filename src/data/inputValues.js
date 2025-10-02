@@ -12,6 +12,7 @@ export const squaresWithThree = 100;
 export const milePace = { minutes: 2, time: "24:31" };
 export const decode = "Xlmw mw e wigvix qiwweki.";
 export const isUnnaturalPrime = 11;
+export const battle = { myArmy: "C@T5", opposingArmy: "D@G$" };
 
 // September 2025
 

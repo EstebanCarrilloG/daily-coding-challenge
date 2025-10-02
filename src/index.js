@@ -71,6 +71,11 @@ console.log(styleText("23-08-2025 - Unnatural prime"), {
   testCase: input.isUnnaturalPrime,
   output: challenge.isUnnaturalPrime(input.isUnnaturalPrime),
 });
+// 24-08-2025 - Character Battle
+console.log(styleText("24-08-2025 - Character Battle"), {
+  testCase: input.battle,
+  output: challenge.battle(input.battle.myArmy, input.battle.opposingArmy),
+});
 
 // ------------------------------------------------------------------------------------------
 
