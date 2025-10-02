@@ -59,12 +59,12 @@ console.log(styleText("20-08-2025 - Squares with 3"), {
 // 21-08-2025 - Mile Pace.
 console.log(styleText("21-08-2025 - Mile Pace"), {
   testCase: input.milePace,
-  output: challenge.milePace(input.milePace.minutes, input.milePace.time),
+  output: challenge.milePace(input.milePace.miles, input.milePace.duration),
 });
 // 22-08-2025 - Message Decoder.
 console.log(styleText("22-08-2025 - Message Decoder"), {
-  testCase: input.decode,
-  output: challenge.decode(input.decode, 4),
+  testCase: input.decode.message,
+  output: challenge.decode(input.decode.message, input.decode.shift),
 });
 // 23-08-2025 - Unnatural prime.
 console.log(styleText("23-08-2025 - Unnatural prime"), {
@@ -91,17 +91,17 @@ console.log(styleText("09-09-2025 - Unique characters"), {
 console.log(styleText("18-09-2025 - Fill The Tank"), {
   testCase: input.costToFill,
   output: challenge.costToFill(
-    input.costToFill.gallons,
-    input.costToFill.cost,
-    input.costToFill.price
+    input.costToFill.tankSize,
+    input.costToFill.fuelLevel,
+    input.costToFill.pricePerGallon
   ),
 });
 // 19-09-2025 - Photo Storage.
 console.log(styleText("19-09-2025 - Photo Storage"), {
   testCase: input.numberOfPhotos,
   output: challenge.numberOfPhotos(
-    input.numberOfPhotos.cost,
-    input.numberOfPhotos.size
+    input.numberOfPhotos.photoSizeMb,
+    input.numberOfPhotos.hardDriveSizeGb
   ),
 });
 // 24-09-2025 - Perfect square.
@@ -117,7 +117,7 @@ console.log(styleText("25-09-2025 - 2nd Largest"), {
 // 26-09-2025 - Caught Speeding.
 console.log(styleText("26-09-2025 - Caught Speeding"), {
   testCase: input.speeding,
-  output: challenge.speeding(input.speeding, 60),
+  output: challenge.speeding(input.speeding.speeds, input.speeding.limit),
 });
 // 27-09-2025 - Spam Detector.
 console.log(styleText("27-09-2025 - Spam Detector"), {
