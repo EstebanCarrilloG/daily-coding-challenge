@@ -143,3 +143,8 @@ console.log(styleText("01-10-2025 - Binary to Decimal"), {
   testCase: input.toDecimal,
   output: challenge.toDecimal(input.toDecimal),
 });
+//02-10-2025
+console.log(styleText("02-10-2025 - Decimal to Binary"), {
+  testCase: input.toBinary,
+  output: challenge.toBinary(input.toBinary),
+});

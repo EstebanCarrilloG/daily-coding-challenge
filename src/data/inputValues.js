@@ -29,3 +29,4 @@ export const formatNumber = "05552340182";
 // October 2025
 
 export const toDecimal = "1010";
+export const toBinary = 1234;
