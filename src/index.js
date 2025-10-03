@@ -153,3 +153,8 @@ console.log(styleText("02-10-2025 - Decimal to Binary"), {
   testCase: input.toBinary,
   output: challenge.toBinary(input.toBinary),
 });
+//03-10-2025 - P@ssw0rd Str3ngth!
+console.log(styleText("03-10-2025 - P@ssw0rd Str3ngth!"), {
+  testCase: input.checkStrength,
+  output: challenge.checkStrength(input.checkStrength),
+});

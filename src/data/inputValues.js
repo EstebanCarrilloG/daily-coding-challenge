@@ -10,7 +10,7 @@ export const factorial = 5;
 export const sumOfSquares = 5;
 export const squaresWithThree = 100;
 export const milePace = { miles: 2, duration: "24:31" };
-export const decode = {message:"Xlmw mw e wigvix qiwweki.", shift:4};
+export const decode = { message: "Xlmw mw e wigvix qiwweki.", shift: 4 };
 export const isUnnaturalPrime = 11;
 export const battle = { myArmy: "C@T5", opposingArmy: "D@G$" };
 
@@ -31,3 +31,4 @@ export const formatNumber = "05552340182";
 
 export const toDecimal = "1010";
 export const toBinary = 1234;
+export const checkStrength = "1234@78";
