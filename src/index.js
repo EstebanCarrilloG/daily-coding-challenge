@@ -158,3 +158,11 @@ console.log(styleText("03-10-2025 - P@ssw0rd Str3ngth!"), {
   testCase: input.checkStrength,
   output: challenge.checkStrength(input.checkStrength),
 });
+//04-10-2025 - Space Week Day 1: Stellar Classification
+console.log(
+  styleText("04-10-2025 - Space Week Day 1: Stellar Classification"),
+  {
+    testCase: input.classification,
+    output: challenge.classification(input.classification),
+  }
+);
