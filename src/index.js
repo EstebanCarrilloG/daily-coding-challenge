@@ -166,3 +166,8 @@ console.log(
     output: challenge.classification(input.classification),
   }
 );
+//05-10-2025 - Space Week Day 2: Exoplanet Search
+console.log(styleText("05-10-2025 - Space Week Day 2: Exoplanet Search"), {
+  testCase: input.hasExoplanet,
+  output: challenge.hasExoplanet(input.hasExoplanet),
+});

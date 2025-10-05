@@ -33,3 +33,4 @@ export const toDecimal = "1010";
 export const toBinary = 1234;
 export const checkStrength = "1234@78";
 export const classification = 400000;
+export const hasExoplanet = "FGFFCFFGG";
