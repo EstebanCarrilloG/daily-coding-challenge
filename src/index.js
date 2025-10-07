@@ -176,3 +176,8 @@ console.log(styleText("06-10-2025 - Space Week Day 3: Phone Home"), {
   testCase: input.sendMessage,
   output: challenge.sendMessage(input.sendMessage),
 });
+//07-10-2025 - Space Week Day 4: Landing Spot
+console.log(styleText("07-10-2025 - Space Week Day 4: Landing Spot"), {
+  testCase: input.findLandingSpot,
+  output: challenge.findLandingSpot(input.findLandingSpot),
+});

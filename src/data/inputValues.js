@@ -35,3 +35,9 @@ export const checkStrength = "1234@78";
 export const classification = 400000;
 export const hasExoplanet = "FGFFCFFGG";
 export const sendMessage = [10000, 21339, 50000, 31243, 10000];
+export const findLandingSpot = [
+  [9, 6, 0, 8],
+  [7, 1, 1, 0],
+  [3, 0, 3, 9],
+  [8, 6, 0, 9],
+];
