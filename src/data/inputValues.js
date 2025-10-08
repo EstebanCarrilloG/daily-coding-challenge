@@ -41,3 +41,4 @@ export const findLandingSpot = [
   [3, 0, 3, 9],
   [8, 6, 0, 9],
 ];
+export const goldilocksZone = 0.5;

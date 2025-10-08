@@ -181,3 +181,8 @@ console.log(styleText("07-10-2025 - Space Week Day 4: Landing Spot"), {
   testCase: input.findLandingSpot,
   output: challenge.findLandingSpot(input.findLandingSpot),
 });
+//08-10-2025 - Space Week Day 5: Goldilocks Zone
+console.log(styleText("08-10-2025 - Space Week Day 5: Goldilocks Zone"), {
+  testCase: input.goldilocksZone,
+  output: challenge.goldilocksZone(input.goldilocksZone),
+});
