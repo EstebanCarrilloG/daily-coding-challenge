@@ -76,6 +76,11 @@ console.log(styleText("24-08-2025 - Character Battle"), {
   testCase: input.battle,
   output: challenge.battle(input.battle.myArmy, input.battle.opposingArmy),
 });
+//25-08-2025 - camelCase
+console.log(styleText("25-08-2025 - camelCase"), {
+  testCase: input.toCamelCase,
+  output: challenge.toCamelCase(input.toCamelCase),
+});
 
 // ------------------------------------------------------------------------------------------
 

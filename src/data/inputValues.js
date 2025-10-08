@@ -13,6 +13,8 @@ export const milePace = { miles: 2, duration: "24:31" };
 export const decode = { message: "Xlmw mw e wigvix qiwweki.", shift: 4 };
 export const isUnnaturalPrime = 11;
 export const battle = { myArmy: "C@T5", opposingArmy: "D@G$" };
+export const toCamelCase =
+  "ye old-_-sea  faring_buccaneer_-_with a - peg__leg----and a_parrot_ _named- _squawk";
 
 // September 2025
 
