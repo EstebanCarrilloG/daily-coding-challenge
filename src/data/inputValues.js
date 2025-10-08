@@ -15,6 +15,11 @@ export const isUnnaturalPrime = 11;
 export const battle = { myArmy: "C@T5", opposingArmy: "D@G$" };
 export const toCamelCase =
   "ye old-_-sea  faring_buccaneer_-_with a - peg__leg----and a_parrot_ _named- _squawk";
+//26 - To do
+export const evaluate = {
+  numbers: [11, 4, 10, 17, 2],
+  operators: ["*", "*", "%"],
+};
 
 // September 2025
 

@@ -81,7 +81,11 @@ console.log(styleText("25-08-2025 - camelCase"), {
   testCase: input.toCamelCase,
   output: challenge.toCamelCase(input.toCamelCase),
 });
-
+//27-08-2025 - Unorder of Operations
+console.log(styleText("27-08-2025 - Unorder of Operations"), {
+  testCase: input.evaluate,
+  output: challenge.evaluate(input.evaluate.numbers, input.evaluate.operators),
+});
 // ------------------------------------------------------------------------------------------
 
 // September 2025
