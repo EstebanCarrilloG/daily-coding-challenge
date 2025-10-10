@@ -49,3 +49,4 @@ export const findLandingSpot = [
   [8, 6, 0, 9],
 ];
 export const goldilocksZone = 0.5;
+export const moonPhase = "2014-10-15";

@@ -195,3 +195,8 @@ console.log(styleText("08-10-2025 - Space Week Day 5: Goldilocks Zone"), {
   testCase: input.goldilocksZone,
   output: challenge.goldilocksZone(input.goldilocksZone),
 });
+//09-10-2025 - Space Week Day 6: Moon Phase
+console.log(styleText("09-10-2025 - Space Week Day 6: Moon Phase"), {
+  testCase: input.moonPhase,
+  output: challenge.moonPhase(input.moonPhase),
+});
