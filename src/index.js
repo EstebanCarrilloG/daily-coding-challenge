@@ -205,3 +205,8 @@ console.log(styleText("10-10-2025 - Space Week Day 7: Launch Fuel"), {
   testCase: input.launchFuel,
   output: challenge.launchFuel(input.launchFuel),
 });
+//11-10-2025 - Hex to Decimal
+console.log(styleText("11-10-2025 - Hex to Decimal"), {
+  testCase: input.hexToDecimal,
+  output: challenge.hexToDecimal(input.hexToDecimal),
+});

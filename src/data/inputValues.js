@@ -51,3 +51,4 @@ export const findLandingSpot = [
 export const goldilocksZone = 0.5;
 export const moonPhase = "2014-10-15";
 export const launchFuel = 60;
+export const hexToDecimal = "A3F";
