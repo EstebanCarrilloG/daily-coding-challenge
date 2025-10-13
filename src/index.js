@@ -200,3 +200,8 @@ console.log(styleText("09-10-2025 - Space Week Day 6: Moon Phase"), {
   testCase: input.moonPhase,
   output: challenge.moonPhase(input.moonPhase),
 });
+//10-10-2025 - Space Week Day 7: Space Week Day 7: Launch Fuel
+console.log(styleText("10-10-2025 - Space Week Day 7: Launch Fuel"), {
+  testCase: input.launchFuel,
+  output: challenge.launchFuel(input.launchFuel),
+});

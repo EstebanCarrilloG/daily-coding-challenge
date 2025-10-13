@@ -7,3 +7,4 @@ export * from "./6.js";
 export * from "./7.js";
 export * from "./8.js";
 export * from "./9.js";
+export * from "./10.js";
