@@ -56,3 +56,4 @@ export const battle2 = {
   ourTeam: "We must never surrender",
   opponent: "Our team must win",
 };
+export const to12 = "0030";

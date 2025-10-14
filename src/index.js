@@ -215,3 +215,8 @@ console.log(styleText("12-10-2025 - Battle of Words"), {
   testCase: input.battle2,
   output: challenge.battle2(input.battle2.ourTeam, input.battle2.opponent),
 });
+//13-10-2025 - 24 to 12
+console.log(styleText("13-10-2025 - 24 to 12"), {
+  testCase: input.to12,
+  output: challenge.to12(input.to12),
+});
