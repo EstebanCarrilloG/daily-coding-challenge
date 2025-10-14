@@ -220,3 +220,8 @@ console.log(styleText("13-10-2025 - 24 to 12"), {
   testCase: input.to12,
   output: challenge.to12(input.to12),
 });
+//14-10-2025 - String Count
+console.log(styleText("14-10-2025 - String Count"), {
+  testCase: input.count,
+  output: challenge.count(input.count.text, input.count.pattern),
+});

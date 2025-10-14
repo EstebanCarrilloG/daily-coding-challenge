@@ -57,3 +57,4 @@ export const battle2 = {
   opponent: "Our team must win",
 };
 export const to12 = "0030";
+export const count = { text: "101010101010101010101", pattern: "101" };
