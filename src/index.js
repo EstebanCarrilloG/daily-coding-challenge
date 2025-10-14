@@ -210,3 +210,8 @@ console.log(styleText("11-10-2025 - Hex to Decimal"), {
   testCase: input.hexToDecimal,
   output: challenge.hexToDecimal(input.hexToDecimal),
 });
+//12-10-2025 - Battle of Words
+console.log(styleText("12-10-2025 - Battle of Words"), {
+  testCase: input.battle2,
+  output: challenge.battle2(input.battle2.ourTeam, input.battle2.opponent),
+});
