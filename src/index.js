@@ -94,6 +94,14 @@ console.log(styleText("28-08-2025 - Second Best"), {
     input.getLaptopCost.budget
   ),
 });
+//29-08-2025 - Candlelight
+console.log(styleText("29-08-2025 - Candlelight"), {
+  testCase: input.burnCandles,
+  output: challenge.burnCandles(
+    input.burnCandles.candles,
+    input.burnCandles.leftoversNeeded
+  ),
+});
 // ------------------------------------------------------------------------------------------
 
 // September 2025
