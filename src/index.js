@@ -86,6 +86,14 @@ console.log(styleText("27-08-2025 - Unorder of Operations"), {
   testCase: input.evaluate,
   output: challenge.evaluate(input.evaluate.numbers, input.evaluate.operators),
 });
+//28-08-2025 - Second Best
+console.log(styleText("28-08-2025 - Second Best"), {
+  testCase: input.getLaptopCost,
+  output: challenge.getLaptopCost(
+    input.getLaptopCost.laptops,
+    input.getLaptopCost.budget
+  ),
+});
 // ------------------------------------------------------------------------------------------
 
 // September 2025

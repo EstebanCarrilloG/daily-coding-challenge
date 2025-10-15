@@ -60,3 +60,7 @@ export const to12 = "0030";
 export const count = { text: "101010101010101010101", pattern: "101" };
 export const stripTags =
   '<main id="main"><section class="section">section</section><section class="section">section</section></main>';
+export const getLaptopCost = {
+  laptops: [2099, 1599, 1899, 1499],
+  budget: 2200,
+};
