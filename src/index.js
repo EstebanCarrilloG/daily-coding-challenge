@@ -225,3 +225,8 @@ console.log(styleText("14-10-2025 - String Count"), {
   testCase: input.count,
   output: challenge.count(input.count.text, input.count.pattern),
 });
+//15-10-2025 - HTML Tag Stripper
+console.log(styleText("15-10-2025 - HTML Tag Stripper"), {
+  testCase: input.stripTags,
+  output: challenge.stripTags(input.stripTags),
+});
