@@ -102,6 +102,11 @@ console.log(styleText("29-08-2025 - Candlelight"), {
     input.burnCandles.leftoversNeeded
   ),
 });
+//30-08-2025 - Array Duplicates
+console.log(styleText("30-08-2025 - Array Duplicates"), {
+  testCase: input.findDuplicates,
+  output: challenge.findDuplicates(input.findDuplicates),
+});
 // ------------------------------------------------------------------------------------------
 
 // September 2025

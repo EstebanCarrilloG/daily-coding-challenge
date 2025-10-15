@@ -25,6 +25,9 @@ export const getLaptopCost = {
   budget: 2200,
 };
 export const burnCandles = { candles: 2345, leftoversNeeded: 3 };
+export const findDuplicates = [
+  2, 34, 0, 1, -6, 23, 5, 3, 2, 5, 67, -6, 23, 2, 43, 2, 12, 0, 2, 4, 4,
+];
 
 // September 2025
 
