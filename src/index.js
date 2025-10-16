@@ -117,6 +117,14 @@ console.log(styleText("31-08-2025 - Hex Generator"), {
 // September 2025
 console.log(styleText("Callenges: September 2025", "heading"));
 
+// 01-09-2025 - Tribonacci Sequence.
+console.log(styleText("01-09-2025 - Tribonacci Sequence"), {
+  testCase: input.tribonacciSequence,
+  output: challenge.tribonacciSequence(
+    input.tribonacciSequence.startSequence,
+    input.tribonacciSequence.length
+  ),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,
