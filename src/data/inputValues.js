@@ -69,3 +69,4 @@ export const to12 = "0030";
 export const count = { text: "101010101010101010101", pattern: "101" };
 export const stripTags =
   '<main id="main"><section class="section">section</section><section class="section">section</section></main>';
+export const validate = "develop.ment_user@c0D!NG.R.CKS";

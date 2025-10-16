@@ -256,3 +256,8 @@ console.log(styleText("15-10-2025 - HTML Tag Stripper"), {
   testCase: input.stripTags,
   output: challenge.stripTags(input.stripTags),
 });
+//16-10-2025 - Email Validator
+console.log(styleText("16-10-2025 - Email Validator"), {
+  testCase: input.validate,
+  output: challenge.validate(input.validate),
+});
