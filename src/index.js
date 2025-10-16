@@ -107,6 +107,11 @@ console.log(styleText("30-08-2025 - Array Duplicates"), {
   testCase: input.findDuplicates,
   output: challenge.findDuplicates(input.findDuplicates),
 });
+//31-08-2025 - Hex Generator
+console.log(styleText("31-08-2025 - Hex Generator"), {
+  testCase: input.generateHex,
+  output: challenge.generateHex(input.generateHex),
+});
 // ------------------------------------------------------------------------------------------
 
 // September 2025
