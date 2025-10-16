@@ -33,6 +33,7 @@ export const generateHex = "red";
 // September 2025
 
 export const tribonacciSequence = { startSequence: [123, 456, 789], length: 8 };
+export const rgbToHex = "rgb(173, 216, 230)";
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
 export const numberOfPhotos = { photoSizeMb: 3.5, hardDriveSizeGb: 750 };

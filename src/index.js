@@ -125,6 +125,11 @@ console.log(styleText("01-09-2025 - Tribonacci Sequence"), {
     input.tribonacciSequence.length
   ),
 });
+//02-09-2025 - RGB to Hex
+console.log(styleText("02-09-2025 - RGB to Hex"), {
+  testCase: input.rgbToHex,
+  output: challenge.rgbToHex(input.rgbToHex),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,
