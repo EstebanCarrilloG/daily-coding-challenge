@@ -34,5 +34,3 @@ function getRandomHexChars(number) {
   }
   return chars;
 }
-
-console.log(generateHex("red"));
