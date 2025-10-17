@@ -1,6 +1,7 @@
 // August 2025
 
 export const vowelBalance = "123A#b!E&*456-o.U";
+export const isValidNumber = { number: "5G3F8F", base: 17 };
 export const fibonacciSequence = { startSequence: [21, 32], length: 10 };
 export const spaceJam = "   free   Code   Camp   ";
 export const jbelmu = "hello world";

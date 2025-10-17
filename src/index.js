@@ -10,6 +10,14 @@ console.log(styleText("11-08-2025 - Vowel Balance"), {
   testCase: input.vowelBalance,
   output: challenge.isBalanced(input.vowelBalance),
 });
+// 12-08-2025 - Base Check
+console.log(styleText("12-08-2025 - Base Check"), {
+  testCase: input.isValidNumber,
+  output: challenge.isValidNumber(
+    input.isValidNumber.number,
+    input.isValidNumber.base
+  ),
+});
 // 13-08-2025 - Fibonacci sequence.
 console.log(styleText("13-08-2025 - Fibonacci sequence"), {
   testCase: input.fibonacciSequence,
