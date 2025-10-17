@@ -274,3 +274,8 @@ console.log(styleText("16-10-2025 - Email Validator"), {
   testCase: input.validate,
   output: challenge.validate(input.validate),
 });
+//17-10-2025 - Credit Card Masker
+console.log(styleText("17-10-2025 - Credit Card Masker"), {
+  testCase: input.mask,
+  output: challenge.mask(input.mask),
+});
