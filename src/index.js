@@ -287,3 +287,8 @@ console.log(styleText("17-10-2025 - Credit Card Masker"), {
   testCase: input.mask,
   output: challenge.mask(input.mask),
 });
+//18-10-2025 - Missing Socks
+console.log(styleText("18-10-2025 - Missing Socks"), {
+  testCase: input.sockPairs,
+  output: challenge.sockPairs(input.sockPairs.pairs, input.sockPairs.cycles),
+});
