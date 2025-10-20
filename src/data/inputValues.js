@@ -77,3 +77,4 @@ export const mask = "4012-8888-8888-1881";
 export const sockPairs = { pairs: 2, cycles: 5 };
 export const extractAttributes =
   '<button id="submit" class="btn btn-primary">Submit</button>';
+export const calculateTips = { mealPrice: "$20.00", customTip: "45%" };

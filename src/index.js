@@ -297,3 +297,11 @@ console.log(styleText("19-10-2025 - HTML Attribute Extractor"), {
   testCase: input.extractAttributes,
   output: challenge.extractAttributes(input.extractAttributes),
 });
+//20-10-2025 - Tip Calculator
+console.log(styleText("20-10-2025 - Tip Calculator"), {
+  testCase: input.calculateTips,
+  output: challenge.calculateTips(
+    input.calculateTips.mealPrice,
+    input.calculateTips.customTip
+  ),
+});
