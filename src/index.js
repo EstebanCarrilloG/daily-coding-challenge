@@ -292,3 +292,8 @@ console.log(styleText("18-10-2025 - Missing Socks"), {
   testCase: input.sockPairs,
   output: challenge.sockPairs(input.sockPairs.pairs, input.sockPairs.cycles),
 });
+//19-10-2025 - HTML Attribute Extractor
+console.log(styleText("19-10-2025 - HTML Attribute Extractor"), {
+  testCase: input.extractAttributes,
+  output: challenge.extractAttributes(input.extractAttributes),
+});
