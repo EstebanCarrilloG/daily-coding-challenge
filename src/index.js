@@ -305,3 +305,11 @@ console.log(styleText("20-10-2025 - Tip Calculator"), {
     input.calculateTips.customTip
   ),
 });
+//21-10-2025 - Thermostat Adjuster 2
+console.log(styleText("21-10-2025 - Thermostat Adjuster 2"), {
+  testCase: input.adjustThermostat,
+  output: challenge.adjustThermostat(
+    input.adjustThermostat.currentF,
+    input.adjustThermostat.targetC
+  ),
+});
