@@ -156,6 +156,11 @@ console.log(styleText("05-09-2025 - IPv4 Validator"), {
   testCase: input.isValidIPv4,
   output: challenge.isValidIPv4(input.isValidIPv4),
 });
+// 06-09-2025 - Matrix Rotate.
+console.log(styleText("06-09-2025 - Matrix Rotate"), {
+  testCase: input.rotate,
+  output: challenge.rotate(input.rotate),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,
