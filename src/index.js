@@ -138,6 +138,14 @@ console.log(styleText("02-09-2025 - RGB to Hex"), {
   testCase: input.rgbToHex,
   output: challenge.rgbToHex(input.rgbToHex),
 });
+// 03-09-2025 - Pangram
+console.log(styleText("03-09-2025 - Pangram"), {
+  testCase: input.isPangram,
+  output: challenge.isPangram(
+    input.isPangram.sentence,
+    input.isPangram.letters
+  ),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,
