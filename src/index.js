@@ -151,6 +151,11 @@ console.log(styleText("04-09-2025 - Vowel Repeater"), {
   testCase: input.repeatVowels,
   output: challenge.repeatVowels(input.repeatVowels),
 });
+//05-09-2025 - IPv4 Validator
+console.log(styleText("05-09-2025 - IPv4 Validator"), {
+  testCase: input.isValidIPv4,
+  output: challenge.isValidIPv4(input.isValidIPv4),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,

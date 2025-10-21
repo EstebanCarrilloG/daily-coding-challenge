@@ -40,6 +40,7 @@ export const isPangram = {
   letters: "abcdefghijklmnopqrstuvwxyz",
 };
 export const repeatVowels = "AEIOU";
+export const isValidIPv4 = "192.250.0.1";
 export const allUnique = "hola";
 export const costToFill = { tankSize: 20, fuelLevel: 0, pricePerGallon: 4.0 };
 export const numberOfPhotos = { photoSizeMb: 3.5, hardDriveSizeGb: 750 };
