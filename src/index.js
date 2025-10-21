@@ -146,6 +146,11 @@ console.log(styleText("03-09-2025 - Pangram"), {
     input.isPangram.letters
   ),
 });
+// 04-09-2025 - Vowel Repeater
+console.log(styleText("04-09-2025 - Vowel Repeater"), {
+  testCase: input.repeatVowels,
+  output: challenge.repeatVowels(input.repeatVowels),
+});
 // 09-09-2025 - Unique characters.
 console.log(styleText("09-09-2025 - Unique characters"), {
   testCase: input.allUnique,
