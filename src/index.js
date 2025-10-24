@@ -336,3 +336,8 @@ console.log(styleText("21-10-2025 - Thermostat Adjuster 2"), {
     input.adjustThermostat.targetC
   ),
 });
+//22-10-2025 - Speak Wisely, You Must
+console.log(styleText("22-10-2025 - Speak Wisely, You Must"), {
+  testCase: input.wiseSpeak,
+  output: challenge.wiseSpeak(input.wiseSpeak),
+});

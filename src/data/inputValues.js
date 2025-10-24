@@ -90,3 +90,4 @@ export const extractAttributes =
   '<button id="submit" class="btn btn-primary">Submit</button>';
 export const calculateTips = { mealPrice: "$20.00", customTip: "45%" };
 export const adjustThermostat = { currentF: 72, targetC: 18 };
+export const wiseSpeak = "All your base are belong to us.";
