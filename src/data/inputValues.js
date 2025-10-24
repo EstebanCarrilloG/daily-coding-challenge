@@ -91,3 +91,8 @@ export const extractAttributes =
 export const calculateTips = { mealPrice: "$20.00", customTip: "45%" };
 export const adjustThermostat = { currentF: 72, targetC: 18 };
 export const wiseSpeak = "All your base are belong to us.";
+export const favoriteSongs = [
+  { title: "Skip Track", plays: 98 },
+  { title: "99 Downloads", plays: 99 },
+  { title: "Clickwheel Love", plays: 100 },
+];

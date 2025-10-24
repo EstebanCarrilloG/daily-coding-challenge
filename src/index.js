@@ -341,3 +341,8 @@ console.log(styleText("22-10-2025 - Speak Wisely, You Must"), {
   testCase: input.wiseSpeak,
   output: challenge.wiseSpeak(input.wiseSpeak),
 });
+//23-10-2025 - Favorite Songs
+console.log(styleText("23-10-2025 - Favorite Songs"), {
+  testCase: input.favoriteSongs,
+  output: challenge.favoriteSongs(input.favoriteSongs),
+});
