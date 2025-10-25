@@ -346,3 +346,8 @@ console.log(styleText("23-10-2025 - Favorite Songs"), {
   testCase: input.favoriteSongs,
   output: challenge.favoriteSongs(input.favoriteSongs),
 });
+//24-10-2025 - Hidden Treasure
+console.log(styleText("24-10-2025 - Hidden Treasure"), {
+  testCase: input.dive,
+  output: challenge.dive(input.dive.map, input.dive.coordinates),
+});

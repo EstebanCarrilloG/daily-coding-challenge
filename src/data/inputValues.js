@@ -96,3 +96,11 @@ export const favoriteSongs = [
   { title: "99 Downloads", plays: 99 },
   { title: "Clickwheel Love", plays: 100 },
 ];
+export const dive = {
+  map: [
+    ["-", "X"],
+    ["-", "O"],
+    ["-", "O"],
+  ],
+  coordinates: [1, 1],
+};
