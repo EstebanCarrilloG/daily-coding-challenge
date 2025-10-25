@@ -104,3 +104,4 @@ export const dive = {
   ],
   coordinates: [1, 1],
 };
+export const complementaryDNA = "GGCTTACGATCGAAG";

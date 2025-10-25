@@ -351,3 +351,8 @@ console.log(styleText("24-10-2025 - Hidden Treasure"), {
   testCase: input.dive,
   output: challenge.dive(input.dive.map, input.dive.coordinates),
 });
+//25-10-2025 - Complementary DNA
+console.log(styleText("25-10-2025 - Complementary DNA"), {
+  testCase: input.complementaryDNA,
+  output: challenge.complementaryDNA(input.complementaryDNA),
+});
